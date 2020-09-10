@@ -22,10 +22,14 @@ background-image: linear-gradient(#1e130c, #9a8478);
 background-image: linear-gradient(#07d173, #072239);
 }
 
+.card-img{
+  border-radius: 50%;
+}
+
 .card{
     background-color:#f5f5dc;
     color:#000000;
-    max-width: 300px;
+    width: 100%;
     margin: 20px;
 
 }
