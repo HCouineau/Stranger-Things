@@ -38,9 +38,17 @@ width: 100%
 
 }
 
+.card:hover {
+  transform: scale(1.05);
+}
+
 .card-content{
   padding:20px 30px 20px 30px;
   transform: translateY(-2%) skewY(2deg);
+}
+
+.card:hover .card-content {
+  background-color: #dededede;
 }
 
 img{
