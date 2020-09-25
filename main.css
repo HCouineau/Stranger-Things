@@ -40,7 +40,7 @@ width: 100%
 
 .card-content{
   padding:20px 30px 20px 30px;
-
+  transform: translateY(-2%) skewY(2deg);
 }
 
 img{
