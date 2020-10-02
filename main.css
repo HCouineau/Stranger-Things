@@ -31,7 +31,6 @@ width: 100%
 }
 
 .card{
-    background-color:#f5f5dc;
     color:#000000;
     width: 100%;
     margin: 20px;
@@ -45,6 +44,8 @@ width: 100%
 .card-content{
   padding:20px 30px 20px 30px;
   transform: translateY(-2%) skewY(2deg);
+  background-color:#f5f5dc;
+  border-radius: 10px;
 }
 
 .card:hover .card-content {
